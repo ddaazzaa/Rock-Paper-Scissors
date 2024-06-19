@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #20394f;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #816271;
+}
+
+.box {
+  height: 1000px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+
+.header {
+  height: 300px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #c3a38a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header > h1 {
+  font-size: 60px;
+}
+
+.header > p {
+  font-size: 30px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.human {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 350px;
+  width: 425px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 40px;
+  color: #c3a38a;
+  border: 5px dashed #f6d6bd;
+}
+
+.human-choice {
+  margin: 0;
+}
+
+#vs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 150px;
+}
+
+#vsimg {
+  width: 100px;
+}
+
+.computer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 350px;
+  width: 425px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 40px;
+  color: #c3a38a;
+  border: 5px dashed #f6d6bd;
+}
+
+.computer-choice {
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#round-outcome {
+  height: 100px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: weight;
+  font-size: 30px;
+  color: #c3a38a;
+}
+
+#game-outcome {
+  height: 100px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 50px;
+  color: #c3a38a;
+}
+
+#rock {
+  border: none;
+  background-color: #816271;
+  cursor: pointer;
+}
+
+#rockimage {
+  height: 150px;
+  width: 150px;
+}
+
+#paper {
+  border: none;
+  background-color: #816271;
+  cursor: pointer;
+}
+
+#paperimage {
+  height: 150px;
+  width: 150px;
+}
+
+#scissors {
+  border: none;
+  background-color: #816271;
+  cursor: pointer;
+}
+
+#scissorsimage {
+  height: 150px;
+  width: 150px;
+}
+
+#newgamebtn {
+  border: 5px dashed #f6d6bd;
+  background-color: #20394f;
+  width: 1000px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 50px;
+  color: #c3a38a;
+  cursor: pointer;
+}
